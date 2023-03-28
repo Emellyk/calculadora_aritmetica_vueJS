@@ -35,14 +35,15 @@
     <form>
       <div class="row">
         <p class="p-5 h2 pb-2 mb-4 fs-4 text-warning text-center">Digite o primeiro número, escolha o operador e digite o segundo número</p>
+        <br/>
         <div class="col-3 p-5 h2 pb-2 mb-4 position-absolute top-50 start-50 translate-middle">
           <input v-model.number="input1" type="number" class="form-control text-center border border-warning">
           <div class="col">
             <select v-model="operacao" class="form-control text-center mb-4 mt-4">
               <option value="+">+</option>
               <option value="-">-</option>
-              <option value="-">*</option>
-              <option value="-">/</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
             </select>
           </div>
           <input v-model.number="input2" type="number" class="form-control text-center border border-warning">
