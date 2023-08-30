@@ -2,7 +2,7 @@
 Projeto realizado em VueJS
 - 2 campos para dados numéricos
 - 1 campo tipo select para escolher operação
-- Valor é atualizado sozinho sem clique
+- Valor é calculado automaticamente
 
 ## calculadora_aritmetica_vueJS
 
