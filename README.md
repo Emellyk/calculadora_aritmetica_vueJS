@@ -1,4 +1,10 @@
-# calculadora_aritmetica_vueJS
+# Calculadora Aritmética em VueJS
+Projeto realizado em VueJS
+- 2 campos para dados numéricos
+- 1 campo tipo select para escolher operação
+- Valor é atualizado sozinho sem clique
+
+## calculadora_aritmetica_vueJS
 
 This template should help get you started developing with Vue 3 in Vite.
 
